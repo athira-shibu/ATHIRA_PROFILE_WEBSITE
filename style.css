@@ -7,6 +7,9 @@ body {
     height: 100vh;
     background-color: black;
 }
-h1,h3{
+h1,h3,p{
     color: white;
+}
+#my-info,#my-name,#know-me {
+    display: none;
 }
