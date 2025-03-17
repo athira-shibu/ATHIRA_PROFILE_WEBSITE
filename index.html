@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@athira</title>
     <link rel="stylesheet" href="style.css">
+
     <style>
         .screen {
             display: none;
@@ -15,31 +16,10 @@
     </style>
 </head>
 <body>
-    <h1 id="my-name">Athira Shibu</h1>
-    <p id="my-info">I am a Back End Developer. I did a Master's Degree in Computer Science. 1+ years of experience 
+    <h1>Athira Shibu</h1>
+    <p>I am a Back End Developer. I did a Master's Degree in Computer Science. 1+ years of experience 
         as a Back End Developer. Focusing on Laravel.
     </p>
-    <button id="know-me" type="button" onclick='document.getElementById("my-info").innerHTML = "I am a Back End Developer"'>Know Me</button>
-
-    <div id="hacked-screen" class="screen active">
-        <img src="images/hacked.gif" alt="you have been hacked">
-    </div>
-
-    <button id="escape">Escape</button>
-
-    <div id="joke-screen" class="screen">
-        <img src="images/kidding.jpeg" alt="Just kidding">
-    </div>
-
-    <script>
-        document.getElementById("escape").addEventListener("click", function() {
-            document.getElementById("hacked-screen").classList.remove("active");
-            document.getElementById("joke-screen").classList.add("active");
-            document.getElementById("my-info").style.fontFamily = "verdana";
-            document.getElementById("my-info").style.display = "block";
-            document.getElementById("my-name").style.display = "block";
-            document.getElementById("know-me").style.display = "block";
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
