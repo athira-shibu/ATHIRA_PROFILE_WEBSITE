@@ -1,0 +1,1 @@
+window.alert("remember to check my latest amazing projects :-)")
